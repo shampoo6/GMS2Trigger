@@ -9,7 +9,7 @@ GMS2简易触发器
 对对象进行配置。
 
 ## 配置项
-![](./img/options.png)
+![](./img/option.png)
 - target: 触发对象，该对象进入触发器才会触发事件。
 - mode: 触发模式，默认为 `CollisioinMask`，有三种触发模式：
   - `CollisioinMask`: 使用sprite的碰撞盒进行触发，该模式可以触发 `onTriggerEnter` 和 `onTriggerOut` 事件。
