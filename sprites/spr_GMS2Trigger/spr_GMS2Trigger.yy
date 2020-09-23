@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5be8f128-af74-429a-98d4-b169ea94751d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "GMS2Trigger",
-    "path": "folders/Sprites/GMS2Trigger.yy",
+    "name": "Gizmos",
+    "path": "folders/Sprites/GMS2Trigger/Gizmos.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_GMS2Trigger",

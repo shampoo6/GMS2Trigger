@@ -12,21 +12,30 @@
 // 0：target在trigger外
 // 1：target在trigger内
 // 2：target和trigger相交
-intersect = useCollisionMask? false: 0;
+
+switch mode {
+	case TriggerMode.CollisionMask:
+	case TriggerMode.Point:
+		intersect = false;
+		break;
+	case TriggerMode.Rectangle:
+		intersect = 0;
+		break;
+}
 
 #region 注册事件
 // 存在触发对象就绑定事件
 if target {
 	// 初始化eventInfo
-	if onTriggerEnter {
+	if onTriggerEnter && mode != TriggerMode.Point {
 		enterInfo = new EventInfo(target, onTriggerEnter);
 		gms2ESAddEventListener("onTriggerEnter" + string(id), enterInfo);
 	}
-	if onTriggerIn && !useCollisionMask {
+	if onTriggerIn && mode != TriggerMode.CollisionMask {
 		InInfo = new EventInfo(target, onTriggerIn);
 		gms2ESAddEventListener("onTriggerIn" + string(id), InInfo);
 	}
-	if onTriggerLeave && !useCollisionMask {
+	if onTriggerLeave && mode == TriggerMode.Rectangle {
 		leaveInfo = new EventInfo(target, onTriggerLeave);
 		gms2ESAddEventListener("onTriggerLeave" + string(id), leaveInfo);
 	}

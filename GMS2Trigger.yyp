@@ -1,7 +1,7 @@
 {
   "resources": [
     {"id":{"name":"gms2ESSendEvent","path":"scripts/gms2ESSendEvent/gms2ESSendEvent.yy",},"order":3,},
-    {"id":{"name":"spr_GMS2Trigger","path":"sprites/spr_GMS2Trigger/spr_GMS2Trigger.yy",},"order":1,},
+    {"id":{"name":"spr_GMS2Trigger","path":"sprites/spr_GMS2Trigger/spr_GMS2Trigger.yy",},"order":0,},
     {"id":{"name":"obj_GMS2Trigger","path":"objects/obj_GMS2Trigger/obj_GMS2Trigger.yy",},"order":0,},
     {"id":{"name":"gms2ESAddEventListener","path":"scripts/gms2ESAddEventListener/gms2ESAddEventListener.yy",},"order":0,},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":0,},
@@ -15,6 +15,7 @@
     {"id":{"name":"onTriggerLeave","path":"scripts/onTriggerLeave/onTriggerLeave.yy",},"order":2,},
     {"id":{"name":"obj_Init","path":"objects/obj_Init/obj_Init.yy",},"order":1,},
     {"id":{"name":"onTriggerIn","path":"scripts/onTriggerIn/onTriggerIn.yy",},"order":3,},
+    {"id":{"name":"gms2TriggerMode","path":"scripts/gms2TriggerMode/gms2TriggerMode.yy",},"order":2,},
     {"id":{"name":"rm_example","path":"rooms/rm_example/rm_example.yy",},"order":0,},
   ],
   "Options": [
@@ -51,12 +52,13 @@
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/GMS2Trigger.yy","order":1,"resourceVersion":"1.0","name":"GMS2Trigger","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/GMS2Trigger.yy","order":1,"resourceVersion":"1.0","name":"GMS2Trigger","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/GMS2Trigger/Example.yy","order":2,"resourceVersion":"1.0","name":"Example","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/GMS2Trigger/Example.yy","order":0,"resourceVersion":"1.0","name":"Example","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/GMS2Trigger/Example.yy","order":1,"resourceVersion":"1.0","name":"Example","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/GMS2EventSystem.yy","order":2,"resourceVersion":"1.0","name":"GMS2EventSystem","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/GMS2EventSystem.yy","order":1,"resourceVersion":"1.0","name":"GMS2EventSystem","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/GMS2Trigger.yy","order":2,"resourceVersion":"1.0","name":"GMS2Trigger","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/GMS2Trigger/Example.yy","order":1,"resourceVersion":"1.0","name":"Example","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/GMS2Trigger/Gizmos.yy","order":1,"resourceVersion":"1.0","name":"Gizmos","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
