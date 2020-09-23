@@ -11,7 +11,10 @@ GMS2简易触发器
 ## 配置项
 ![](./img/options.png)
 - target: 触发对象，该对象进入触发器才会触发事件。
-- useCollisionMask: 是否使用碰撞盒做碰撞检测，默认为 `true`。使用碰撞盒时，触发器只会触发 `onTriggerEnter` 和 `onTriggerOut` 事件。
+- mode: 触发模式，默认为 `CollisioinMask`，有三种触发模式：
+  - `CollisioinMask`: 使用sprite的碰撞盒进行触发，该模式可以触发 `onTriggerEnter` 和 `onTriggerOut` 事件。
+  - `Rectangle`: 使用矩形碰撞算法，会使用 `target` 的 `sprite` 边框作为第一个矩形，`trigger` 边框作为第二个矩形，然后做相交运算。该模式可以触发 `onTriggerEnter` 、`onTriggerIn` 、`onTriggerLeave` 和 `onTriggerOut` 事件
+  - `Point`: 该模式以 `sprite` 的 `origin` 点 作为参照，进入触发器时，触发 `onTriggerIn` ，退出触发器时，触发 `onTriggerOut`
 - onTriggerEnter: 进入事件脚本。
 - onTriggerIn: 完全进入事件脚本。
 - onTriggerLeave: 离开事件脚本。
