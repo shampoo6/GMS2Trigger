@@ -10,7 +10,9 @@ GMS2简易触发器
 
 > 由于 `obj_GMS2Trigger` 在 `create` 事件中需要注册事件，所以请确保在进入有触发器的场景前，就创建好了 `obj_GMS2EventManager` 。例如：创建一个 `rm_Init` 场景，专门用于初始化一些全局对象，其中就包括 `obj_GMS2EventManager。`
 
-## 配置项
+## 参考
+
+### 配置项
 ![](./img/option.png)
 
 名称 | 功能
@@ -25,10 +27,10 @@ onTriggerIn | 完全进入事件脚本。
 onTriggerLeave | 离开事件脚本。
 onTriggerOut | 完全离开事件脚本。
 
-## 事件
+### 事件
 事件触发时，脚本的作用域是 `target`。
 
-### 触发条件
+#### 触发条件
 
 声明触发对象和触发器如下：
 - 令触发对象为obj，obj的碰撞盒为obj.mask
