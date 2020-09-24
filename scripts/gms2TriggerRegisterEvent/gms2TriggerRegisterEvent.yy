@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Example",
-    "path": "folders/Scripts/GMS2Trigger/Example.yy",
+    "name": "GMS2Trigger",
+    "path": "folders/Scripts/GMS2Trigger.yy",
   },
   "resourceVersion": "1.0",
-  "name": "onTriggerOut",
+  "name": "gms2TriggerRegisterEvent",
   "tags": [],
   "resourceType": "GMScript",
 }

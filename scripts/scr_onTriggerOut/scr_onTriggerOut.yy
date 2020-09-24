@@ -6,7 +6,7 @@
     "path": "folders/Scripts/GMS2Trigger/Example.yy",
   },
   "resourceVersion": "1.0",
-  "name": "onTriggerLeave",
+  "name": "scr_onTriggerOut",
   "tags": [],
   "resourceType": "GMScript",
 }
